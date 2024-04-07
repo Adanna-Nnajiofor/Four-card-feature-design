@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* for desktop view */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-weight: 100;
+    color: grey;
+    text-align: center;
+  }
+
+  span {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+  }
+
+  .subhead {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .submain {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .row {
+    position:relative;
+    height: 250px;
+  }
+
+  .column{
+    height: 250px;
+  }
+
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px;
+    width: 60vh;
+    padding:30px;
+  }
+
+  .box img {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    padding-right: 20px;
+    bottom: 0;
+    padding-bottom: 20px;
+    
+  }
+
+  .supervisor {
+   
+    border-top: 10px solid hsl(180, 62%, 55%);
+    top: 150px;
+  }
+
+  .team-builder {
+    border-top: 10px solid hsl(0, 78%, 62%);
+  }
+
+  .karma {
+    border-top: 10px solid hsl(34, 97%, 64%);
+  }
+
+  .calculator {
+    border-top: 10px solid hsl(212, 86%, 64%);
+    top: 150px;
+  }
+
+  h4 {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+  .box p {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+}
+
+/* for mobile view */
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-weight: 100;
+    color: grey;
+    text-align: center;
+  }
+
+  span {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+  }
+
+  .subhead {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px 120px 30px;
+    position: relative;
+    margin: 20px 0px;
+  }
+
+  .box img {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    padding-right: 20px;
+    bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  .supervisor {
+    border-top: 10px solid hsl(180, 62%, 55%);
+  }
+
+  .team-builder {
+    border-top: 10px solid hsl(0, 78%, 62%);
+  }
+
+  .karma {
+    border-top: 10px solid hsl(34, 97%, 64%);
+  }
+
+  .calculator {
+    border-top: 10px solid hsl(212, 86%, 64%);
+  }
+
+  h4 {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+  .box p {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+}
+
+/* Tablet devices (portrait and landscape)
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    Styles for tablet devices
+} */
